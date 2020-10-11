@@ -20,5 +20,37 @@
 }
 
 .apps {
-    
+    position: relative;
+}
+
+.app-icon {
+    position: relative;
+    text-align: right;
+    align-content: center;
+    align-items: center;
+}
+
+.fb-ico {
+    text-align: center;
+    align-items: center;
+    color: blue;
+    font-size: 35px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.msn-ico{
+
+}
+
+.tw-ico{
+
+}
+
+.mail-ico{
+
+}
+
+.share-ico{
+
 }
