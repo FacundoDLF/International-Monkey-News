@@ -8,7 +8,6 @@
 
 .container-apps {
     position: relative;
-    text-align: left;
     align-items: center;
     align-content: center;
     max-width: 50%;
@@ -21,36 +20,118 @@
 
 .apps {
     position: relative;
+
 }
 
-.app-icon {
+.app-icons {
     position: relative;
     text-align: right;
-    align-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .fb-ico {
+    max-width: 20%;
+    display: inline-block;
+    position: relative;
     text-align: center;
-    align-items: center;
     color: blue;
-    font-size: 35px;
+    background-color: lightgray;
+    font-size: 28px;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    width: 10%;
+    height: 10%;
+    border-radius: 25px;
 }
 
-.msn-ico{
-
+a:hover.fb-ico{
+    color: white;
+    background-color: blue;
 }
 
-.tw-ico{
-
+.msn-ico {
+    max-width: 20%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    background-color: lightblue;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+    border-radius: 25px;
 }
 
-.mail-ico{
-
+a:hover.msn-ico{
+    color: whitesmoke;
+    background-color: skyblue;
 }
 
-.share-ico{
+.tw-ico {
+    max-width: 20%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Taho;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+    border-radius: 25px;
+}
 
+a:hover.tw-ico{
+    color: blue;
+    background-color: white;
+}
+
+.mail-ico {
+    max-width: 20%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: red;
+    background-color: lightcoral;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Taho;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+    border-radius: 25px;
+}
+
+a:hover.mail-ico{
+    color: white;
+    background-color: red;
+}
+
+.share-ico {
+    max-width: 20%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: green;
+    background-color: darkgreen;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Taho;
+    text-decoration: none;
+    width: auto;
+    height: 10%;
+}
+
+a:hover.share-ico{
+    color: darkgreen;
+    background-color: greenyellow;
+    border-radius: 25px;
 }
