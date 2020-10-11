@@ -8,41 +8,41 @@
 
 .container-apps {
     position: relative;
-    align-items: center;
-    align-content: center;
-    max-width: 50%;
+    max-width: auto;
     max-height: 10%;
 }
 
 .date-apps {
+    max-width: auto;
 
 }
 
 .apps {
-    position: relative;
+    max-width: 50%;
+    text-align: right;
+
 
 }
 
 .app-icons {
-    position: relative;
-    text-align: right;
-    align-items: center;
-    align-content: center;
+    display: inline;
+    max-width: 20%;
+ 
+
 }
 
 .fb-ico {
-    max-width: 20%;
-    display: inline-block;
+    float: right;
     position: relative;
     text-align: center;
     color: blue;
     background-color: lightgray;
-    font-size: 28px;
+    font-size: 15px;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-weight: 600;
-    width: 10%;
+    width: 5%;
     height: 10%;
     border-radius: 25px;
 }
@@ -53,17 +53,16 @@ a:hover.fb-ico{
 }
 
 .msn-ico {
-    max-width: 20%;
-    display: inline-block;
+    float: right;
     position: relative;
     text-align: center;
     color: whitesmoke;
     background-color: lightblue;
-    font-size: 28px;
+    font-size: 15px;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    width: 10%;
+    width: 5%;
     height: 10%;
     border-radius: 25px;
 }
@@ -74,17 +73,16 @@ a:hover.msn-ico{
 }
 
 .tw-ico {
-    max-width: 20%;
-    display: inline-block;
+    float: right;
     position: relative;
     text-align: center;
     color: white;
     background-color: blue;
-    font-size: 28px;
+    font-size: 15px;
     font-style: normal;
     font-family: Verdana, Geneva, Taho;
     text-decoration: none;
-    width: 10%;
+    width: 5%;
     height: 10%;
     border-radius: 25px;
 }
@@ -95,17 +93,16 @@ a:hover.tw-ico{
 }
 
 .mail-ico {
-    max-width: 20%;
-    display: inline-block;
+    float: right;
     position: relative;
     text-align: center;
     color: red;
     background-color: lightcoral;
-    font-size: 28px;
+    font-size: 15px;
     font-style: normal;
     font-family: Verdana, Geneva, Taho;
     text-decoration: none;
-    width: 10%;
+    width: 5%;
     height: 10%;
     border-radius: 25px;
 }
@@ -116,22 +113,44 @@ a:hover.mail-ico{
 }
 
 .share-ico {
-    max-width: 20%;
-    display: inline-block;
+    float: right;
     position: relative;
     text-align: center;
     color: green;
     background-color: darkgreen;
-    font-size: 28px;
+    font-size: 15px;
     font-style: normal;
     font-family: Verdana, Geneva, Taho;
     text-decoration: none;
-    width: auto;
+    width: 10%;
     height: 10%;
+    border-radius: 25px;
 }
 
 a:hover.share-ico{
     color: darkgreen;
     background-color: greenyellow;
-    border-radius: 25px;
+
+}
+
+.link1 {
+    text-decoration: none;
+    text-decoration: none;
+    color: darkslategrey;
+    font-weight: 790;
+}
+
+.news-link1 {
+    background-color: white;
+    border-color: lightgrey;
+    border-style: ridge;
+    border-width: 1px;
+    padding:8px;
+
+
+}
+
+a:hover.link1 {
+    background-color: blue;
+    color: white;
 }
