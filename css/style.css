@@ -1,0 +1,24 @@
+.header {
+    max-width: 40%;
+    position: relative;
+    text-align: left;
+    align-content: center;
+    align-items: center;
+}
+
+.container-apps {
+    position: relative;
+    text-align: left;
+    align-items: center;
+    align-content: center;
+    max-width: 50%;
+    max-height: 10%;
+}
+
+.date-apps {
+
+}
+
+.apps {
+    
+}
