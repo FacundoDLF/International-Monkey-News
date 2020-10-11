@@ -1,45 +1,42 @@
 .header {
-    max-width: 40%;
+    max-width: 50%;
     position: relative;
     text-align: left;
+    font-family: sans-serif;
     align-content: center;
     align-items: center;
 }
 
+
+
 .container-apps {
     position: relative;
-    max-width: auto;
-    max-height: 10%;
+    max-width: 50%;
 }
 
 .date-apps {
-    max-width: auto;
+    text-align: left;
 
 }
 
 .apps {
-    max-width: 50%;
     text-align: right;
-
 
 }
 
 .app-icons {
     display: inline;
-    max-width: 20%;
- 
 
 }
 
 .fb-ico {
-    float: right;
     position: relative;
     text-align: center;
     color: blue;
     background-color: lightgray;
     font-size: 15px;
     font-style: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     text-decoration: none;
     font-weight: 600;
     width: 5%;
@@ -53,14 +50,14 @@ a:hover.fb-ico{
 }
 
 .msn-ico {
-    float: right;
+
     position: relative;
     text-align: center;
     color: whitesmoke;
     background-color: lightblue;
     font-size: 15px;
     font-style: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     text-decoration: none;
     width: 5%;
     height: 10%;
@@ -73,14 +70,14 @@ a:hover.msn-ico{
 }
 
 .tw-ico {
-    float: right;
+
     position: relative;
     text-align: center;
     color: white;
     background-color: blue;
     font-size: 15px;
     font-style: normal;
-    font-family: Verdana, Geneva, Taho;
+    font-family: Verdana;
     text-decoration: none;
     width: 5%;
     height: 10%;
@@ -93,14 +90,14 @@ a:hover.tw-ico{
 }
 
 .mail-ico {
-    float: right;
+
     position: relative;
     text-align: center;
     color: red;
     background-color: lightcoral;
     font-size: 15px;
     font-style: normal;
-    font-family: Verdana, Geneva, Taho;
+    font-family: Verdana;
     text-decoration: none;
     width: 5%;
     height: 10%;
@@ -113,14 +110,14 @@ a:hover.mail-ico{
 }
 
 .share-ico {
-    float: right;
+
     position: relative;
     text-align: center;
     color: green;
     background-color: darkgreen;
     font-size: 15px;
     font-style: normal;
-    font-family: Verdana, Geneva, Taho;
+    font-family: Verdana;
     text-decoration: none;
     width: 10%;
     height: 10%;
@@ -153,4 +150,60 @@ a:hover.share-ico{
 a:hover.link1 {
     background-color: blue;
     color: white;
+}
+
+
+
+
+
+.article {
+    max-width: 50%;
+    font-family: sans-serif;
+}
+
+.p1 {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: justify;
+
+}
+
+.p2 {
+    color: white;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: rgb(19, 128, 161);
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.span1 {
+    font-family: fantasy;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+
+.covid-19 {
+float: right;
+}
+
+.search-ico {
+    width: 45px;
+    height: 45px;
+    float: right;   
+}
+
+.search-bar {
+    width: 550px;
+    height: 35px;
 }
