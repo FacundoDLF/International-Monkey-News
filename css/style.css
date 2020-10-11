@@ -200,10 +200,32 @@ float: right;
 .search-ico {
     width: 45px;
     height: 45px;
-    float: right;   
+    float: right;
 }
 
 .search-bar {
     width: 550px;
     height: 35px;
+}
+
+.countries-img {
+    align-items: center;
+    width: 700px;
+}
+.p3 {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: left;
+    width: 89%
+}
+.banner-news {
+    width: 50%;
+}
+
+.banner-top {
+    width: 100%;
+}
+
+.banner-button {
+    width: 100%;
 }
