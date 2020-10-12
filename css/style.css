@@ -1,5 +1,8 @@
+.nav {
+    height: 148px;
+}
 .header {
-    max-width: 50%;
+    max-width: 90%;
     position: relative;
     text-align: left;
     font-family: sans-serif;
@@ -7,15 +10,25 @@
     align-items: center;
 }
 
+.body {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
 
+.column-principal {
+    max-width: 50%;
+    margin-left: 13%;
+}
 
 .container-apps {
     position: relative;
-    max-width: 50%;
+    max-width: 100%;
+
 }
 
 .date-apps {
-    text-align: left;
+    float: left;
 
 }
 
@@ -25,13 +38,11 @@
 }
 
 .app-icons {
-    display: inline;
 
 }
 
 .fb-ico {
     position: relative;
-    text-align: center;
     color: blue;
     background-color: lightgray;
     font-size: 15px;
@@ -52,7 +63,6 @@ a:hover.fb-ico{
 .msn-ico {
 
     position: relative;
-    text-align: center;
     color: whitesmoke;
     background-color: lightblue;
     font-size: 15px;
@@ -72,7 +82,6 @@ a:hover.msn-ico{
 .tw-ico {
 
     position: relative;
-    text-align: center;
     color: white;
     background-color: blue;
     font-size: 15px;
@@ -92,7 +101,6 @@ a:hover.tw-ico{
 .mail-ico {
 
     position: relative;
-    text-align: center;
     color: red;
     background-color: lightcoral;
     font-size: 15px;
@@ -112,7 +120,6 @@ a:hover.mail-ico{
 .share-ico {
 
     position: relative;
-    text-align: center;
     color: green;
     background-color: darkgreen;
     font-size: 15px;
@@ -157,7 +164,7 @@ a:hover.link1 {
 
 
 .article {
-    max-width: 50%;
+    max-width: 100%;
     font-family: sans-serif;
 }
 
@@ -190,22 +197,35 @@ a:hover.link1 {
     text-align: center;
     vertical-align: middle;
 
-
 }
 
 .covid-19 {
 float: right;
 }
 
+.banner2{
+    background-color: wheat;
+    border-bottom-color: rgb(19, 128, 161);
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+
+}
+
+
 .search-ico {
     width: 45px;
     height: 45px;
-    float: right;
+    justify-content: right;
 }
 
 .search-bar {
-    width: 550px;
-    height: 35px;
+    width: 85%;
+    height: 45px;
+}
+
+.search-container1{
+    margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 .countries-img {
@@ -213,13 +233,13 @@ float: right;
     width: 700px;
 }
 .p3 {
-    font-size: 16px;
+    font-size: 18px;
     font-family: sans-serif;
     text-align: left;
-    width: 89%
+    width: 100%
 }
 .banner-news {
-    width: 50%;
+    width: 100%;
 }
 
 .banner-top {
