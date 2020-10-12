@@ -1,5 +1,6 @@
 .nav {
     height: 148px;
+    text-align: center;
 }
 .header {
     max-width: 90%;
@@ -19,6 +20,11 @@
 .column-principal {
     max-width: 50%;
     margin-left: 13%;
+}
+
+.column-secondary {
+    text-align: center;
+    width: 100%;
 }
 
 .container-apps {
