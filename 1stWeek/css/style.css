@@ -1,0 +1,292 @@
+.nav {
+    height: 148px;
+    text-align: center;
+}
+.header {
+    max-width: 90%;
+    position: relative;
+    text-align: left;
+    font-family: sans-serif;
+    align-content: center;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.column-principal {
+    max-width: 50%;
+    margin-left: 13%;
+}
+
+.column-secondary {
+    text-align: center;
+    width: 100%;
+}
+
+.container-apps {
+    position: relative;
+    max-width: 100%;
+
+}
+
+.date-apps {
+    float: left;
+
+}
+
+.apps {
+    text-align: right;
+
+}
+
+.app-icons {
+
+}
+
+.fb-ico {
+    position: relative;
+    color: blue;
+    background-color: lightgray;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Verdana;
+    text-decoration: none;
+    font-weight: 600;
+    width: 5%;
+    height: 10%;
+    border-radius: 25px;
+}
+
+a:hover.fb-ico{
+    color: white;
+    background-color: blue;
+}
+
+.msn-ico {
+
+    position: relative;
+    color: whitesmoke;
+    background-color: lightblue;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Verdana;
+    text-decoration: none;
+    width: 5%;
+    height: 10%;
+    border-radius: 25px;
+}
+
+a:hover.msn-ico{
+    color: whitesmoke;
+    background-color: skyblue;
+}
+
+.tw-ico {
+
+    position: relative;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Verdana;
+    text-decoration: none;
+    width: 5%;
+    height: 10%;
+    border-radius: 25px;
+}
+
+a:hover.tw-ico{
+    color: blue;
+    background-color: white;
+}
+
+.mail-ico {
+
+    position: relative;
+    color: red;
+    background-color: lightcoral;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Verdana;
+    text-decoration: none;
+    width: 5%;
+    height: 10%;
+    border-radius: 25px;
+}
+
+a:hover.mail-ico{
+    color: white;
+    background-color: red;
+}
+
+.share-ico {
+
+    position: relative;
+    color: green;
+    background-color: darkgreen;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Verdana;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+    border-radius: 25px;
+}
+
+a:hover.share-ico{
+    color: darkgreen;
+    background-color: greenyellow;
+
+}
+
+.button-link {
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.news-link {
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(161, 164, 168);
+    padding: 10px;
+    color: rgb(65, 67, 70);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a:hover.news-link {
+    background-color: rgb(16, 97, 160);
+    color: white;
+    font-weight: bold;
+}
+
+
+.article {
+    max-width: 85%;
+    font-family: sans-serif;
+}
+
+.p1 {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+.countries-list {
+    list-style-type: square;
+    line-height: 2.5;
+    font-family: sans-serif;
+}
+
+.p2 {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    margin-left: 5px;
+    margin-top: 15px;
+    background-color: rgb(19, 128, 161);
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.span1 {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.covid-19 {
+float: right;
+}
+
+.banner2{
+    background-color: rgb(242, 242, 242);
+    border-bottom-color: rgb(19, 128, 161);
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+
+}
+
+.search-button {
+    float: right;
+    width: 10%;
+    height: 45px;
+    background: rgb(10, 77, 96);
+    color: white;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+}
+
+.search-bar {
+    width: 90%;
+    height: 45px;
+}
+
+.search-container1{
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.countries-img {
+    align-items: center;
+    width: 620px;
+    margin-bottom: 18px;
+}
+.p3 {
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 88%;
+    line-height: 1.4;
+}
+.banner-news {
+    width: 100%;
+}
+
+.banner-top {
+    width: 93%;
+    margin-top: 12px;
+}
+
+.banner-button {
+    width: 100%;
+}
+
+.p4 {
+    color: rgb(161, 164, 168);
+}
+
+.goto {
+    position: fixed;
+    right: 0;
+    bottom: 1;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(184, 0, 0);
+    border-radius: 20px;
+    color: rgb(184, 0, 0);
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a:hover.goto {
+    color: white;
+    background-color: red;
+    text-decoration-color: red;
+    font-weight: bold;
+}
